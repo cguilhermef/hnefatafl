@@ -1,0 +1,12 @@
+{
+  "name": "hnefatafl",
+  "version": "1.0.0",
+  "description": "Algoritmo para o jogo Hnefatafl",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Christian G Fritsch <frontend.guilherme@gmail.com>",
+  "license": "MIT"
+}
