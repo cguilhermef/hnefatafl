@@ -33,4 +33,9 @@ describe('Pieces', () => {
   it('shouldn\'t set role anything else than defender, attacker or king', () => {
     expect(() => new Piece(1, 2, 'loremipsum')).toThrow();
   });
+
+  it('Should build a string with piece\'s info', ()=> {
+    const piece = new Piece(2, 3, 'defender');
+    expect(piece.toString()).toEqual('defender, 2.3');
+  });
 });

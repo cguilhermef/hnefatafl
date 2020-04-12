@@ -1,8 +1,8 @@
 export class Piece {
 
-  col_ = null;
-  row_ = null;
-  role_ = null;
+  private col_ = null;
+  private row_ = null;
+  private role_ = null;
 
   constructor(
     col,
