@@ -15,7 +15,7 @@ export class Piece {
   }
 
   set col(col) {
-    if (col < 0 || col > 11) {
+    if (col < 0 || col > 10) {
       throw new Error('Col must be between 0 and 10!');
     }
     this.col_ = col;
@@ -26,7 +26,7 @@ export class Piece {
   }
 
   set row(row) {
-    if (row < 0 || row > 11) {
+    if (row < 0 || row > 10) {
       throw new Error('Row must be between 0 and 10!');
     }
     this.row_ = row;
