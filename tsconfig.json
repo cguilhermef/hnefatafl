@@ -1,0 +1,14 @@
+{
+  "compileOnSave": true,
+  "noImplicityAny": true,
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "outDir": "./dist",
+    "module": "es6",
+    "target": "ES2015",
+    "allowJs": true,
+    "sourceMap": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "**/*.spec.ts"]
+}

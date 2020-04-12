@@ -1,4 +1,4 @@
-class Player {
+export class Player {
   nickname_ = null;
   role_ = null;
 
@@ -21,5 +21,3 @@ class Player {
     return this.role_;
   }
 }
-
-module.exports = Player;

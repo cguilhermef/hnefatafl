@@ -1,5 +1,5 @@
-const Match = require('./match');
-const Player = require('./player');
+import { Match } from './match' 
+import { Player } from  './player';
 
 const p1 = new Player('Christian', 'attacker');
 const p2 = new Player('Carol', 'defender');
@@ -15,5 +15,9 @@ try {
 } catch (e) {
   console.log(e);
 }
-
-j1.board.draw();
+try {
+  j1.move(5, 5, 5, 6);
+} catch(e) {
+  console.log(e);
+}
+j1.board.toString();

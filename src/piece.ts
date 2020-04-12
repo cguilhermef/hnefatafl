@@ -1,4 +1,4 @@
-class Piece {
+export class Piece {
 
   col_ = null;
   row_ = null;
@@ -50,7 +50,4 @@ class Piece {
   toString() {
     return `${ this.role }, ${ this.col }.${ this.row }`;
   }
-
 }
-
-module.exports = Piece;

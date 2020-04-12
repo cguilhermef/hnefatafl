@@ -1,7 +1,7 @@
-const Piece = require('./piece');
+import { Piece } from './piece';
 
-class Board {
-  pieces_ = [];
+export class Board {
+  pieces_: Array<Piece> = [];
 
   constructor() {
   }
@@ -70,7 +70,7 @@ class Board {
     return this.pieces.find((piece) => piece.col === col && piece.row === row ) || null;
   }
 
-  get pieces() {
+  get pieces(): Piece[] {
     return this.pieces_;
   }
 
@@ -103,7 +103,7 @@ class Board {
     return false;
   }
 
-  draw() {
+  toString() {
     for(let i = 0; i < 11; i++) {
       let row = '';
       for(let j = 0; j < 11; j++) {
@@ -118,5 +118,3 @@ class Board {
     }
   }
 }
-
-module.exports = Board;

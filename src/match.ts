@@ -1,7 +1,7 @@
-const Board = require('./board');
-const Piece = require('./piece');
+import { Board } from './board';
+import { Piece } from './piece';
 
-class Match {
+export class Match {
 
   player1_ = null;
   player2_ = null;
@@ -123,5 +123,3 @@ class Match {
       this.player2;
   }
 }
-
-module.exports = Match;
