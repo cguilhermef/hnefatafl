@@ -1,6 +1,6 @@
 # Hnefatafl
 
-O Hnefatafl era um jogo muito popular na Escandinávia medieval e foi mencionado em várias das Sagas nórdicas. Algumas destas referências nas Sagas contribuíram para a controvérsia sobre a possível utilização de dados para jogar Hnefatafl. As regras do jogo nunca foram explicitamente registradas, e existem apenas as peças do jogo e tabuleiros fragmentados, de modo que não é conhecido ao certo como o jogo foi jogado. Se dados foram de fato utilizados, nada foi registrado sobre como eles foram empregados. Fontes arqueológicas e literárias indicam que o Hnefatafl pode ter sido jogado em tabuleiros de 13x13 ou 11x11. [Variantes do Tafl](https://pt.wikipedia.org/wiki/Tafl#Variantes_de_Tafl)
+O Hnefatafl era um jogo muito popular na Escandinávia medieval e foi mencionado em várias das Sagas nórdicas. Algumas destas referências nas Sagas contribuíram para a controvérsia sobre a possível utilização de dados para jogar Hnefatafl. As regras do jogo nunca foram explicitamente registradas, e existem apenas as peças do jogo e tabuleiros fragmentados, de modo que não é conhecido ao certo como o jogo foi jogado. Se dados foram de fato utilizados, nada foi registrado sobre como eles foram empregados. Fontes arqueológicas e literárias indicam que o Hnefatafl pode ter sido jogado em tabuleiros de 13x13 ou 11x11. [WikipediA - Variantes do Tafl](https://pt.wikipedia.org/wiki/Tafl#Variantes_de_Tafl)
 
 ## Projeto Hnefatafl
 
